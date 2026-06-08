@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2200" viewBox="0 0 1440 2200" role="img" aria-labelledby="title desc">
+  <title id="title">MotherhoodTruth Homepage Concept B</title>
+  <desc id="desc">Personal brand plus editorial magazine homepage wireframe for The Truth About Motherhood.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fff}.ink{fill:#172326}.muted{fill:#5D6668}.teal{fill:#2CBCC3}.sand{fill:#F7F1EC}.blush{fill:#F8E7E2}.mist{fill:#F5F7F7}.line{stroke:#DDE6E7;stroke-width:2;fill:none}.card{fill:#fff;stroke:#DDE6E7;stroke-width:2}.h1{font:700 64px Georgia,serif}.h2{font:700 38px Georgia,serif}.h3{font:700 26px Georgia,serif}.body{font:400 20px Arial,sans-serif}.small{font:700 14px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}.nav{font:700 16px Arial,sans-serif}.btn{fill:#2CBCC3}.btnText{font:700 16px Arial,sans-serif;fill:white}.label{font:700 13px Arial,sans-serif;fill:#2CBCC3;letter-spacing:.1em;text-transform:uppercase}
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="2200"/>
+  <rect class="mist" x="0" y="0" width="1440" height="44"/>
+  <text class="small muted" x="80" y="28">Honest motherhood. Midlife truth. No filters.</text>
+  <text class="small muted" x="1160" y="28">Instagram · Pinterest · Search</text>
+  <rect class="bg" x="0" y="44" width="1440" height="118"/>
+  <text class="h2 ink" x="80" y="112">The Truth About Motherhood</text>
+  <rect class="btn" x="1160" y="78" rx="22" width="190" height="44"/>
+  <text class="btnText" x="1204" y="106">Subscribe</text>
+  <line class="line" x1="0" y1="162" x2="1440" y2="162"/>
+  <text class="nav ink" x="80" y="206">Perimenopause</text>
+  <text class="nav ink" x="230" y="206">Midlife Motherhood</text>
+  <text class="nav ink" x="430" y="206">Motherhood</text>
+  <text class="nav ink" x="555" y="206">Health</text>
+  <text class="nav ink" x="640" y="206">Family</text>
+  <text class="nav ink" x="725" y="206">Travel</text>
+  <text class="nav ink" x="810" y="206">Opinion</text>
+  <text class="nav ink" x="910" y="206">About</text>
+  <line class="line" x1="0" y1="232" x2="1440" y2="232"/>
+
+  <text class="small teal" x="80" y="300">Featured</text>
+  <text class="h1 ink" x="80" y="380">Honest motherhood, midlife,</text>
+  <text class="h1 ink" x="80" y="450">and everything we were</text>
+  <text class="h1 ink" x="80" y="520">never told.</text>
+  <text class="body muted" x="80" y="580">For 20 years, The Truth About Motherhood has told the real stories behind parenting, womanhood, family, and growing into every version of ourselves.</text>
+  <rect class="sand" x="820" y="285" width="540" height="420" rx="28"/>
+  <text class="small muted" x="1012" y="500">Hero featured image</text>
+  <rect class="btn" x="80" y="625" width="190" height="52" rx="26"/>
+  <text class="btnText" x="126" y="657">Start Here</text>
+
+  <rect class="blush" x="80" y="780" width="1280" height="245" rx="30"/>
+  <text class="small teal" x="130" y="845">The Midlife Shift</text>
+  <text class="h2 ink" x="130" y="905">Motherhood does not end when the kids grow up.</text>
+  <text class="body muted" x="130" y="955">The body changes. The hormones shift. The identity cracks open. This is where we tell the truth about what comes next.</text>
+  <rect class="btn" x="1090" y="875" width="190" height="52" rx="26"/>
+  <text class="btnText" x="1134" y="907">Read More</text>
+
+  <text class="h2 ink" x="80" y="1120">Start Here</text>
+  <g transform="translate(80 1160)">
+    <rect class="card" width="280" height="180" rx="20"/><text class="label" x="24" y="42">Pillar</text><text class="h3 ink" x="24" y="86">Perimenopause</text><text class="body muted" x="24" y="126">Symptoms, stories, body shifts, and truth.</text>
+  </g>
+  <g transform="translate(400 1160)">
+    <rect class="card" width="280" height="180" rx="20"/><text class="label" x="24" y="42">Pillar</text><text class="h3 ink" x="24" y="86">Midlife Motherhood</text><text class="body muted" x="24" y="126">Parenting while becoming yourself again.</text>
+  </g>
+  <g transform="translate(720 1160)">
+    <rect class="card" width="280" height="180" rx="20"/><text class="label" x="24" y="42">Pillar</text><text class="h3 ink" x="24" y="86">Family Life</text><text class="body muted" x="24" y="126">Marriage, kids, home, and real life.</text>
+  </g>
+  <g transform="translate(1040 1160)">
+    <rect class="card" width="280" height="180" rx="20"/><text class="label" x="24" y="42">Pillar</text><text class="h3 ink" x="24" y="86">Travel</text><text class="body muted" x="24" y="126">Family travel and midlife adventure.</text>
+  </g>
+
+  <text class="h2 ink" x="80" y="1460">Latest Stories</text>
+  <g transform="translate(80 1500)">
+    <rect class="sand" width="380" height="220" rx="22"/><rect class="card" y="240" width="380" height="210" rx="18"/><text class="label" x="24" y="285">Perimenopause</text><text class="h3 ink" x="24" y="328">Article headline goes here</text><text class="body muted" x="24" y="370">Excerpt text for a modern editorial card.</text>
+  </g>
+  <g transform="translate(530 1500)">
+    <rect class="sand" width="380" height="220" rx="22"/><rect class="card" y="240" width="380" height="210" rx="18"/><text class="label" x="24" y="285">Motherhood</text><text class="h3 ink" x="24" y="328">Article headline goes here</text><text class="body muted" x="24" y="370">Excerpt text for a modern editorial card.</text>
+  </g>
+  <g transform="translate(980 1500)">
+    <rect class="sand" width="380" height="220" rx="22"/><rect class="card" y="240" width="380" height="210" rx="18"/><text class="label" x="24" y="285">Health</text><text class="h3 ink" x="24" y="328">Article headline goes here</text><text class="body muted" x="24" y="370">Excerpt text for a modern editorial card.</text>
+  </g>
+
+  <rect class="mist" x="80" y="2020" width="1280" height="120" rx="28"/>
+  <text class="h3 ink" x="130" y="2075">Get the truth in your inbox.</text>
+  <text class="body muted" x="130" y="2115">Real stories on motherhood, midlife, perimenopause, family, and womanhood.</text>
+  <rect class="btn" x="1130" y="2054" width="170" height="52" rx="26"/>
+  <text class="btnText" x="1172" y="2086">Subscribe</text>
+</svg>
