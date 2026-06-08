@@ -14,16 +14,34 @@ Working positioning:
 
 ## Visual direction
 
-- Premium editorial magazine
-- White background
-- Teal accent: `#2CBCC3`
+- Premium editorial magazine with personal-author warmth
+- White background with soft editorial color fields
+- Logo cyan: `#00ECFF`
+- Soft Tiffany support color: `#81D8D0`
 - Warm blush/sand supporting tones
 - Large readable typography
-- Spacious layouts
-- Modern cards
+- Full-width, fluid layouts that dynamically adjust by viewport
+- Image-led landing pages and article pages
+- Spacious layouts with strong visual rhythm
+- Modern cards, but not boxy widget clutter
 - Mobile-first
 - No page-builder dependency
 - No Soledad or Avada dependency
+
+## Layout rule
+
+The site should feel full-width on both landing pages and post pages.
+
+Use fluid sections that can expand across large screens, but constrain long-form reading text for readability.
+
+Recommended pattern:
+
+- Outer page sections: full-width or near full-width
+- Inner content container: fluid using `width: min(100% - clamp(24px, 5vw, 96px), 1440px)`
+- Article body copy: readable measure around `720px–820px`
+- Featured images: wide/full editorial treatment
+- Related/author/newsletter modules: full-width section treatments below article body
+- Avoid traditional sidebars inside the primary reading column
 
 ## Recommended content pillars
 
@@ -52,17 +70,19 @@ Working positioning:
 
 ## Single article priorities
 
-- Large featured image
+- Full-width editorial article header
+- Large wide featured image
 - Category badge
 - Article title
 - Author metadata
 - Published and updated dates
 - Reading time estimate
-- Social sharing
-- Author authority box
-- Related posts
-- Newsletter CTA
-- Popular posts sidebar on desktop
+- Quiet text-level sharing, no visible share counters
+- Author authority box below article
+- Related posts below article
+- Newsletter CTA below article
+- Popular posts/discovery modules below article, not as a dominant reading sidebar
+- Dynamic responsive layout that adapts from wide desktop to mobile without squeezing the article body
 
 ## SEO / AI optimization priorities
 
