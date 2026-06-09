@@ -4,17 +4,50 @@
 
 Modernize **The Truth About Motherhood** into a fast, SEO-friendly, AI-readable editorial WordPress theme while preserving the site's 20-year content archive and brand authority.
 
-## Brand direction
+## Repositioned brand strategy
 
-The site began as a mommy blog and is evolving into a modern platform for motherhood, midlife, perimenopause, women's health, family, travel, and opinion.
+The site is not becoming another generic motherhood, midlife, or wellness blog. The new strategic position is:
 
-Working positioning:
+> Life Perspective Through Mom Goggles 2.0
 
-> Honest motherhood, midlife, and everything we were never told.
+The opportunity is to claim the full motherhood spectrum after the baby/toddler years: teens, college, adult children, launching kids, midlife identity, perimenopause, ADHD, Gen X wellness, cultural identity, political discourse, travel with older kids, and spicy opinion content.
+
+## Core blue-ocean pillars
+
+Focus on these proprietary/underserved pillars only:
+
+1. **Launching Pad Mom / Training Wheels Parenting**  
+   Letting go without letting down. This replaces sad/passive “empty nest” language with a stronger, ownable life-stage identity.
+
+2. **Perimenopause + Motherhood**  
+   The conversation nobody is having: hormones, rage, exhaustion, identity, parenting teens, marriage, and health while still mothering.
+
+3. **ADHD Moms**  
+   ADHD in women, ADHD moms raising ADHD kids, systems, shame, chaos, humor, and survival from an authentic lived-experience voice.
+
+4. **Latina Mom Cultural Identity / Spicy Latina Trad Wife**  
+   Culture, traditional values, modern motherhood, political awareness, identity, family, faith/values where relevant, and unapologetic representation.
+
+5. **Gen X Mom Wellness**  
+   Fitness, health, strength, mobility, perimenopause exercise, family fitness, and getting visible/healthy again in midlife.
+
+6. **Throat Punch Thursday / Spicy Takes Sunday**  
+   Signature opinion series for viral commentary, political hot takes, cultural criticism, and humorous truth-telling.
+
+## Brand voice
+
+- Authentic
+- Irreverent
+- Vulnerable
+- Smart
+- Opinionated but not reckless
+- Funny, sharp, and human
+- Strong enough to cut through sanitized parenting content
 
 ## Visual direction
 
-- Premium editorial magazine with personal-author warmth
+- Premium editorial publication with personal-author warmth
+- Centered masthead using the existing logo as a strong publication identity
 - White background with soft editorial color fields
 - Logo cyan: `#00ECFF`
 - Soft Tiffany support color: `#81D8D0`
@@ -42,37 +75,43 @@ Recommended pattern:
 - Featured images: wide/full editorial treatment
 - Related/author/newsletter modules: full-width section treatments below article body
 - Avoid traditional sidebars inside the primary reading column
+- Header should read as a centered publication masthead: utility row, centered logo, centered navigation
 
-## Recommended content pillars
+## Recommended content architecture
 
+Primary navigation should support the blue-ocean strategy, not generic blog categories.
+
+Recommended nav labels:
+
+- Training Wheels
+- Launching Pad Life
 - Perimenopause
-- Midlife Motherhood
-- Motherhood
-- Health & Wellness
-- Family Life
+- ADHD Moms
+- Spicy Latina
+- Gen X Wellness
 - Travel
-- Opinion
+- Throat Punch
 
 ## Homepage sections
 
-1. Sticky navigation
-2. Logo / brand header
-3. Hero feature area
-4. Brand statement highlighting 20 years of truth
-5. Start Here / pillar cards
-6. Midlife Shift feature section
-7. Latest Stories
-8. From 20 Years of Truth archive section
-9. Author introduction
-10. Newsletter signup
-11. Instagram/social section
+1. Utility row with tagline/social/search/subscribe
+2. Centered logo masthead
+3. Centered primary navigation
+4. Hero brand statement: Life Perspective Through Mom Goggles 2.0
+5. Featured story
+6. Blue Ocean pillar cards
+7. Signature series strip
+8. Latest stories
+9. From 20 Years of Truth archive section
+10. Author introduction
+11. Newsletter signup
 12. Footer navigation
 
 ## Single article priorities
 
 - Full-width editorial article header
 - Large wide featured image
-- Category badge
+- Category badge tied to pillar/series
 - Article title
 - Author metadata
 - Published and updated dates
@@ -83,6 +122,16 @@ Recommended pattern:
 - Newsletter CTA below article
 - Popular posts/discovery modules below article, not as a dominant reading sidebar
 - Dynamic responsive layout that adapts from wide desktop to mobile without squeezing the article body
+
+## Signature series
+
+- Training Wheels Tuesday
+- Throat Punch Thursday
+- Wisdom Wednesday
+- Launching Pad Life
+- Gen X Mom Gets Fit Friday
+- Freedom Phase Friend-Finding
+- Spicy Takes Sunday
 
 ## SEO / AI optimization priorities
 
@@ -96,3 +145,5 @@ Recommended pattern:
 - Fast mobile loading
 - Lazy-loaded images
 - No shortcode dependency
+- Pillar landing pages for blue-ocean topics
+- Strong internal linking from old evergreen posts into new pillar hubs
