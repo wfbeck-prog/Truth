@@ -1,0 +1,287 @@
+/* MotherhoodTruth Brand Identity Pass v1
+   Shared overrides for homepage, article, and about prototypes. */
+
+:root {
+  --truth-accent: #00ecff;
+  --truth-tiffany: #81D8D0;
+  --truth-ink: #172326;
+  --truth-soft: #f5fbfa;
+  --truth-line: #dcebea;
+}
+
+/* Smaller sticky masthead across all prototypes */
+.site-header {
+  box-shadow: 0 8px 28px rgba(23, 35, 38, 0.045);
+}
+
+.topbar {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-size: 0.7rem !important;
+}
+
+.brand-row {
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
+}
+
+.site-logo {
+  width: min(330px, 52vw) !important;
+}
+
+.main-nav {
+  padding-top: 9px !important;
+  padding-bottom: 11px !important;
+  gap: clamp(14px, 2vw, 24px) !important;
+  font-size: 0.88rem !important;
+}
+
+/* Homepage: make the opening feel more like Deborah, less like a generic magazine. */
+.homepage-brand-hero {
+  position: relative;
+}
+
+.homepage-brand-hero .hero-copy {
+  max-width: 780px;
+}
+
+.identity-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.identity-kicker span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--truth-line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--truth-ink);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.truth-note {
+  position: relative;
+  margin-top: 28px;
+  padding: 24px 26px;
+  border: 1px solid var(--truth-line);
+  border-left: 6px solid var(--truth-accent);
+  border-radius: 0 22px 22px 0;
+  background: #fff;
+  box-shadow: 0 16px 44px rgba(23, 35, 38, 0.06);
+  text-align: left;
+}
+
+.truth-note .truth-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #159da0;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.truth-note p {
+  margin: 0;
+  color: var(--truth-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.author-cred-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.author-cred-row span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 66px;
+  padding: 12px;
+  border: 1px solid var(--truth-line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--truth-ink);
+  font-weight: 900;
+  text-align: center;
+}
+
+/* Article: add reusable truth note polish without changing article readability. */
+.article-body .truth-note {
+  margin: 44px 0;
+}
+
+/* About page: make personal sections feel intentional. */
+.bio-section,
+.family-section {
+  padding: 78px 0;
+}
+
+.bio-layout,
+.family-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 420px) minmax(320px, 820px);
+  gap: clamp(34px, 5vw, 76px);
+  align-items: start;
+}
+
+.bio-aside,
+.family-grid > div:first-child {
+  position: sticky;
+  top: 128px;
+}
+
+.bio-aside h2,
+.family-grid h2 {
+  margin: 8px 0 14px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.2rem, 4vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.bio-aside p,
+.bio-copy p,
+.family-copy p {
+  color: #5d6668;
+  font-size: 1.08rem;
+}
+
+.bio-copy,
+.family-copy {
+  padding: clamp(28px, 4vw, 46px);
+  border: 1px solid var(--truth-line);
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 0 16px 48px rgba(23, 35, 38, 0.05);
+}
+
+.bio-copy .lead {
+  color: var(--truth-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.45rem, 2.4vw, 2.25rem);
+  line-height: 1.18;
+}
+
+.family-section {
+  background: linear-gradient(135deg, rgba(129, 216, 208, 0.18), rgba(248, 231, 226, 0.28));
+  border-block: 1px solid var(--truth-line);
+}
+
+/* About page editorial cards for worldview section. */
+.editorial-pillars {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+.editorial-pillars article {
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid var(--truth-line);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 14px 40px rgba(23, 35, 38, 0.045);
+}
+
+.editorial-pillars h3 {
+  margin: 0 0 10px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.45rem;
+  line-height: 1.08;
+}
+
+.editorial-pillars p {
+  margin: 0;
+  color: #5d6668;
+}
+
+/* Collaborations: more authority, less generic. */
+.brand-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-card:before {
+  content: 'Trusted';
+  position: absolute;
+  right: -10px;
+  bottom: -30px;
+  color: rgba(0, 236, 255, 0.11);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(4rem, 8vw, 8rem);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.brand-grid span,
+.press-grid span {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 980px) {
+  .site-logo {
+    width: min(300px, 64vw) !important;
+  }
+
+  .bio-layout,
+  .family-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bio-aside,
+  .family-grid > div:first-child {
+    position: static;
+  }
+
+  .editorial-pillars,
+  .author-cred-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .topbar {
+    display: none !important;
+  }
+
+  .brand-row {
+    padding-top: 8px !important;
+    padding-bottom: 6px !important;
+  }
+
+  .site-logo {
+    width: min(245px, 70vw) !important;
+  }
+
+  .main-nav {
+    padding-top: 8px !important;
+    padding-bottom: 9px !important;
+  }
+
+  .identity-kicker {
+    gap: 6px;
+  }
+
+  .identity-kicker span {
+    min-height: 30px;
+    font-size: 0.68rem;
+  }
+
+  .author-cred-row,
+  .editorial-pillars {
+    grid-template-columns: 1fr !important;
+  }
+}
